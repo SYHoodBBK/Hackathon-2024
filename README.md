@@ -5,11 +5,11 @@
 - [Introduction](#introduction)
 - [System Requirements](#system-requirements)
 - [Installation](#installation)
-- [Design Prototype Ideas](#Design Prototype Ideas)
 - [List of Files](#list-of-files)
-- [App Design \- Technical Feasibility](#App Design \- Technical Feasibility)
+- [Design Prototype Ideas](#design-prototype-ideas)
+- [App Design \- Technical Feasibility](#app-design-technical-feasibility)
 - [Contributors](#contributors)
-- [List of references](#List of references)
+- [List of references](#list-of-references)
 
 ## Introduction
 
@@ -107,7 +107,8 @@ Existing apps don't provide intuitive instructions for users with disabilities. 
 1. **Object Recognition & Road Detection:** The app can utilise pre-trained computer vision algorithms, such as YOLOv8, an open-source object recognition model, or Apple Vision Framework for iOS development process real-time environment information. This functionality accurately identifies and communicates environmental details such as obstacles, pedestrian paths,  traffic signals to users in real-time. Additionally, the app recognizes any potential warning signs and road hazardous signals like potholes and water puddles , ensuring users are alerted to dangers in their surroundings, enhancing both safety and confidence during navigation. This function can greatly improve mobility for vulnerable groups, especially in underdeveloped areas.
 
    ![1](/Image/1.gif)
-   																				**YOLOv8**[^3] 
+
+   **YOLOv8**[^3] 
    Taking a step forward, our solution can also detect current Navilens QR Codes and provide suitable and more accurate instructions to users without the need to modify existing infrastructure. 
 
 2. **Direction Sensing**: Combines data from the device's gyroscope and compass to accurately determine the user's direction relative to their surroundings.   
@@ -115,7 +116,8 @@ Existing apps don't provide intuitive instructions for users with disabilities. 
 3. **Distance Detection:** Implying stereo vision or LiDAR sensors to calculate the distance to detected objects, leading to a precise navigation. In scenarios where only monocular vision is available, depth estimation models like MonoDepth2 are used.
 
    ![2](/Image/2.png)
-   																		**MonoDepth2** [^4]
+   
+   **MonoDepth2** [^4]
 
 **Language Model Integration**  
 The integration of Language Model is aiming to address the issue of app interaction barriers for people with disabilities. The basic function includes: processing user commands and generating natural language audio feedback.
