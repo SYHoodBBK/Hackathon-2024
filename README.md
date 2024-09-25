@@ -109,6 +109,7 @@ Existing apps don't provide intuitive instructions for users with disabilities. 
    ![1](/Image/1.gif)
 
    **YOLOv8**[^3] 
+
    Taking a step forward, our solution can also detect current Navilens QR Codes and provide suitable and more accurate instructions to users without the need to modify existing infrastructure. 
 
 2. **Direction Sensing**: Combines data from the device's gyroscope and compass to accurately determine the user's direction relative to their surroundings.   
