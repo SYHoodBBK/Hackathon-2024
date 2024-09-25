@@ -7,7 +7,7 @@
 - [Installation](#installation)
 - [List of Files](#list-of-files)
 - [Design Prototype Ideas](#design-prototype-ideas)
-- [App Design \- Technical Feasibility](#app-design-technical-feasibility)
+- [Technical Feasibility](#technical-feasibility)
 - [Contributors](#contributors)
 - [List of references](#list-of-references)
 
@@ -96,9 +96,9 @@ Existing apps don't provide intuitive instructions for users with disabilities. 
 
 ​    The goal of the app is to provide an AI-driven navigation solution that enhances accessibility and safety for vulnerable populations, specifically the vision-impaired and the elderly. By offering intuitive, user-friendly features such as voice-guided navigation, vision-based obstacle detection, route optimization, and real-time updates, the app empowers these users to navigate independently while addressing their unique challenges. Additionally, the app promotes inclusivity and fairness by closing the technology gap, ensuring that all users have access to reliable and supportive navigation tools tailored to their needs.
 
-## App Design \- Technical Feasibility
+## Technical Feasibility
 
-**Figma Design Link: ** https://www.figma.com/design/bCdQChU0m3sczzPSQSibUD/Prototype?node-id=0-1&t=ks6OQJ24uq9m17sW-1
+**Figma Design Link**: https://www.figma.com/design/bCdQChU0m3sczzPSQSibUD/Prototype?node-id=0-1&t=ks6OQJ24uq9m17sW-1
 
 **KEYWORDS: Computer Vision, Natural Language Processing, Dynamic Routing**
 
