@@ -1,7 +1,9 @@
 import React from 'react';
+import { useRouter } from 'expo-router';
 import { View, Text, TouchableOpacity, StyleSheet, SafeAreaView, Image } from 'react-native';
 
 const MyGuardianScreen = () => {
+  const router = useRouter();
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.title}>My Guardian</Text>
@@ -20,7 +22,7 @@ const MyGuardianScreen = () => {
         </TouchableOpacity>
       </View>
 
-      <TouchableOpacity style={styles.backButton}>
+      <TouchableOpacity style={styles.backButton} onPress={() => router.back()}>
         <Text style={styles.backButtonText}>Back</Text>
       </TouchableOpacity>
     </SafeAreaView>

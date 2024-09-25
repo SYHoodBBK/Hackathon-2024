@@ -1,7 +1,9 @@
 import React from 'react';
+import { useRouter } from 'expo-router';
 import { View, Text, TouchableOpacity, StyleSheet, SafeAreaView, ScrollView } from 'react-native';
 
 const HistoryScreen = () => {
+  const router = useRouter();
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.title}>History</Text>
@@ -29,7 +31,7 @@ const HistoryScreen = () => {
         </View>
       </ScrollView>
 
-      <TouchableOpacity style={styles.backButton}>
+      <TouchableOpacity style={styles.backButton} onPress={() => router.back()}>
         <Text style={styles.backButtonText}>Back</Text>
       </TouchableOpacity>
      
